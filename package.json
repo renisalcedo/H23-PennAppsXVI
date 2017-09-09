@@ -5,8 +5,10 @@
     "start": "meteor run"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "babel-runtime": "^6.20.0",
     "meteor-node-stubs": "~0.2.4",
+    "pg": "^7.3.0",
     "pg-query": "^0.11.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

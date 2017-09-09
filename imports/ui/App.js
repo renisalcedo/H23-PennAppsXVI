@@ -7,7 +7,7 @@ import Footer from './Footer';
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <NavBar />
 
         <Panels />
