@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import { Router, Route, browserHistory } from 'react-router';
 
-
 export default class NavBar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a className="navbar-brand" href="index.html" >Emsource</a>
+        <a className="navbar-brand" href={app}>Emsource</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

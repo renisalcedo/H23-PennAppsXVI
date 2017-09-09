@@ -1,1 +1,7 @@
 /* CSS declarations go here */
+
+body {
+  background: #50c9c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #50c9c3, #96deda); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #50c9c3, #96deda)
+}
