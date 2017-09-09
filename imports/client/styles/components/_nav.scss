@@ -1,0 +1,17 @@
+.nav_items,
+.brand {
+  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+.nav_items--border {
+  border: .01rem solid #5bc0de;
+  border-radius: .2rem;
+  margin-left: .5rem;
+}
+
+.brand:after {
+  content: '|';
+  display: inline-block;
+  margin-left: 1rem;
+}

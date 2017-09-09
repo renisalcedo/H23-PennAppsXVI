@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #50c9c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #50c9c3, #96deda); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #50c9c3, #96deda);
+  color: #5a5a5a;
+  min-height: 100vh;
+  position: relative;
+}
