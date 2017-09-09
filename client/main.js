@@ -18,12 +18,6 @@ const routes = (
   </Router>
 );
 
-browserHistory.push({
-  pathname: '/gethelp',
-  search: '?the=query',
-  state: { some: 'state' }
-})
-
 Meteor.startup(() => {
   Tracker.autorun(() => {
 
